@@ -47,7 +47,7 @@ shortTitle		: FW.Xpath('//p[@class="lead"]').text(),
 date			: FW.Xpath('//dl[@class="definitions"]/dd').text(),
 abstractNote	: FW.Xpath('//div[@class="grid_9 alpha"]/p[2]').text(),
 billNumber		: FW.Xpath('//p[@class="lead"]').text(),
-libraryCatalog	: 'Regeringen',
+libraryCatalog	: 'Regeringskansliet',
 attachments		: 
 	[{
 		url		: FW.Xpath('//li[@class="pdf"]/a').key('href'),
@@ -68,7 +68,7 @@ series			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text(),
 seriesNumber	: FW.Xpath('//p[@class="lead"]').text(),
 date			: FW.Xpath('//dl[@class="definitions"]/dd').text(),
 abstractNote	: FW.Xpath('//div[@class="grid_9 alpha"]/p[2]').text(),
-libraryCatalog	: 'Regeringen',
+libraryCatalog	: 'Regeringskansliet',
 attachments		: 
 	[{
 		url		: FW.Xpath('//li[@class="pdf"]/a').key('href'),
@@ -87,7 +87,7 @@ title			: FW.Xpath('//h1').text(),
 shortTitle		: FW.Xpath('//p[@class="lead"]').text(),
 date			: FW.Xpath('//dl[@class="definitions"]/dd').text(),
 abstractNote	: FW.Xpath('//div[@class="grid_9 alpha"]/p[2]').text(),
-libraryCatalog	: 'Regeringen',
+libraryCatalog	: 'Regeringskansliet',
 attachments		: 
 	[{
 		url		: FW.Xpath('//li[@class="pdf"]/a').key('href'),
@@ -130,7 +130,7 @@ var testCases = [
 				"date": "2 november 2006",
 				"language": "sv-SE",
 				"legislativeBody": "Regeringen",
-				"libraryCatalog": "Regeringen",
+				"libraryCatalog": "Regeringskansliet",
 				"shortTitle": "Prop. 2006/07:5",
 				"title": "Nya kapitaltäckningregler",
 				"accessDate": "CURRENT_TIMESTAMP"
