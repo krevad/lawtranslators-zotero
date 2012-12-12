@@ -37,7 +37,7 @@ function doWeb(doc, url) { return FW.doWeb(doc, url); }
 
 FW.Scraper({
 itemType		: 'bill',
-detect			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text().match(/^(Lagrådsremiss|Proposition)/),
+detect			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text().match(/^(Lagrådsremiss|Proposition|Departementsserien|Statens)/),
 language		: 'sv-SE',
 url				: FW.Url(),
 tags			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text(),
@@ -47,27 +47,6 @@ shortTitle		: FW.Xpath('//p[@class="lead"]').text(),
 date			: FW.Xpath('//dl[@class="definitions"]/dd').text(),
 abstractNote	: FW.Xpath('//div[@class="grid_9 alpha"]/p[2]').text(),
 billNumber		: FW.Xpath('//p[@class="lead"]').text(),
-libraryCatalog	: 'Regeringskansliet',
-attachments		: 
-	[{
-		url		: FW.Xpath('//li[@class="pdf"]/a').key('href'),
-		title	: FW.Xpath('//li[@class="pdf"]/a').text(),
-		type	: "application/pdf" 
-	}]
-});
-
-FW.Scraper({
-itemType		: 'book',
-detect			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text().match(/^(Departementsserien|Statens)/),
-language		: 'sv-SE',
-url				: FW.Url(),
-tags			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text(),
-title			: FW.Xpath('//h1').text(),
-shortTitle		: FW.Xpath('//p[@class="lead"]').text(),
-series			: FW.Xpath('//dl[@class="definitions"]/dd[2]').text(),
-seriesNumber	: FW.Xpath('//p[@class="lead"]').text(),
-date			: FW.Xpath('//dl[@class="definitions"]/dd').text(),
-abstractNote	: FW.Xpath('//div[@class="grid_9 alpha"]/p[2]').text(),
 libraryCatalog	: 'Regeringskansliet',
 attachments		: 
 	[{
