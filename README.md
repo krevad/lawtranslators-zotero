@@ -7,10 +7,14 @@ These are the web translators I’ve written for Zotero.
 This translator handles the Swedish Code of Statutes and court decisions.
 
 ## Regeringskansliet
------------------
 [Regeringskansliet](http://www.regeringen.se) (Government Offices of Sweden) publishes bills, committee reports and other preparatory works for legislation and policies.
 
 This translator handles government bills, official reports, the ministry publications series and the committees terms of reference.
+
+## Adlibris.com
+[Adlibris.com](http://www.adlibris.com) is one of the major online book shops in Sweden.
+
+This translator handles book listings on Adlibris.com.
 
 ## Useful links
 - [Swedish government terms](http://www.government.se/sb/d/2979)
