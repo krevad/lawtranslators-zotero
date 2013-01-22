@@ -16,7 +16,7 @@
 
 /*
 Adlibris Translator
-Copyright (C) 2012 Isak Bergdahl
+Copyright (C) 2013 Isak Bergdahl
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
