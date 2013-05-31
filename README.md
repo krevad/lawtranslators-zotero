@@ -18,4 +18,4 @@ This translator handles book listings on Adlibris.com.
 
 ## Useful links
 - [Swedish government terms](http://www.government.se/sb/d/2979)
-- [Att skriva juridik CSL](https://github.com/krevad/attskrivajuridik-csl/), a Citation Style Language-template for Swedish legal writing.
+- [Swedish Legal CSL](https://github.com/krevad/swedishlegal-csl/), a Citation Style Language-template for Swedish legal writing.
